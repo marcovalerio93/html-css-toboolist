@@ -58,6 +58,39 @@ body{
     border-radius: 5px;
     color:gray;
     font-weight: bold;
-    border-color: gray;
+    border-color:gray;
 }
 /* fine botton */
+/* inizio lista */
+
+.liste{
+    margin-top:3px;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h1:before{
+    content: '\25BC';
+}
+#check{
+    display: inline-block;
+    color: #87e5d1;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: #000;
+    text-align: center;
+    vertical-align: middle;
+}
+#editorial{
+    color: #fff;
+    background-color:#47adf1;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size:x-small;
+}
