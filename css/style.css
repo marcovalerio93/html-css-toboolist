@@ -4,15 +4,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+/* inzio header  */
 .header-logo{
-    vertical-align: middle;
+    padding: 10px;
+    background-color:#fff;
 }
 #logo{
     height: 50px;
+    vertical-align: middle;
 }
 #logo-text{
-    font: 100;
-    color: blueviolet;
+    font-size: 40px;
+    color: #000;
+    vertical-align: middle;
+    font-weight: bold;
 }
+/* fine header */
+
+/* inzio main */
+body{
+    background-color: gray;
+   
+}
+#container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*  inzio botton */
+.button{
+    margin-top: 50px;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#azzuro{
+    padding: 5px;
+    background-color: #47adf1;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    border-color: #47adf1;
+}
+#bianco{
+    padding: 5px;
+    background-color:#fff;
+    border-radius: 5px;
+    color:gray;
+    font-weight: bold;
+    border-color: gray;
+}
+/* fine botton */
