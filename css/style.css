@@ -58,6 +58,7 @@ button{
     background-color: #47adf1;
     color: #fff;
     border-color: #47adf1;
+    
 }
 /* fine button */
 /* inizio lista */
@@ -92,14 +93,14 @@ li li{
 
 /* inizio simboli check-cross */
 .circle{
-    display: inline block;
-    width: 30px;
-    height: 30px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     border-style: solid;
     border-width: 1px;
     text-align: center;
-    line-height:30px;
+    line-height: 20px;
 }
 .check{
     color: #87e5d1;
