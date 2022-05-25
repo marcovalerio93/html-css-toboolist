@@ -6,8 +6,13 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* sfondo pagina */
+body{
+    background-color: #b1bbf8;
+}
+
 /* inzio header  */
-.header-logo{
+header{
     padding: 10px;
     background-color:#fff;
 }
@@ -24,16 +29,12 @@
 /* fine header */
 
 /* inzio main */
-body{
-    background-color: #b1bbf8;
-   
-}
 #container{
     width: 70%;
     margin: 0 auto;
 }
 
-/*  inzio botton */
+/*  inzio button */
 .button{
     margin-top: 50px;
     background-color: #fff;
@@ -61,11 +62,16 @@ button{
     font-weight: bold;
     border-color: #47adf1;
 }
-/* fine botton */
+/* fine button */
 /* inizio lista */
+
+ul{
+    list-style: none;
+}
 
 .liste{
     margin-top:3px;
+    margin-bottom: 10px;
     background-color: #fff;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -74,11 +80,17 @@ button{
     padding-bottom: 20px;
     color: #000;
 }
-h1{
+h2{
     margin-top: 20px;
 }
-h1:before{
-    content: '\25BC';
+h2:before{
+    content: '\23F7';
+}
+li{
+    padding: 10px;
+}
+li li{
+    padding: 10px 0px;
 }
 
 p{
@@ -86,80 +98,53 @@ p{
     margin-left: 5px;
     margin-top: 10px;
 }
-.check{
-    color: #87e5d1;
+.circle{
+    display: inline block;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: solid 2px;
-    border-color:#87e5d1;
+    border: solid;
     text-align: center;
-    vertical-align: middle;
-    line-height: normal;
-    padding: 3px;
+    line-height:30px;
+    padding: 5px;
+
+}
+.check{
+    color: #87e5d1;
+    border-color:#87e5d1;
+    
 }
 .cross{
     color: #ff2828;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: solid 2px;
     border-color:#ff2828;
-    text-align: center;
-    vertical-align: middle;
-    line-height: normal;   
-    padding: 3px;
+}
+
+.postit{
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size:x-small;
 
 }
 .editorial{
-    color: #fff;
     background-color:#47adf1;
-    padding: 5px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size:x-small;
+    
 }
 .q1{
-    color: #fff;
-    background-color: #9c72e4;
-    padding: 5px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size:x-small;
+     background-color: #9c72e4;
 }
+   
 .recruiting{
-    color: #fff;
     background-color: #64c0a9;
-    padding: 5px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size:x-small;
-
 }
-.mobile{
-    color: #fff;
-    background-color: #f29e33;
-    padding: 5px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size:x-small;
 
+.mobile{
+    background-color: #f29e33;
 }
 .website{
-    color: #fff;
     background-color: #d863a1;
-    padding: 5px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size:x-small;
-
-
 }
 .sales{
-    color: #fff;
     background-color: #b0c926;
-    padding: 5px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size:x-small;
 }
